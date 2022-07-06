@@ -79,6 +79,12 @@ x = 5
 y = 3
 print(x <= y)
 
+age = 19
+if 18 <= age <65:
+    print("Eligible")
+else:
+    print("Not eligible")
+
 #assignment operators
 print("ASSIGNMENT OPERATORS")
 x = 5
