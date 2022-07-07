@@ -1,4 +1,9 @@
+#!/usr/bin/python3
 #dictionary
+'''
+syntax :
+variable_name = {key:value}  #key must be a immutable datatype but value can be any type
+'''
 d={"j":[1,2]}
 print(d)
 
@@ -52,6 +57,16 @@ d={'Brand':'Xiaomi','model':'redmi','launced in india':'yes'}
 x=d.keys()
 print(x)
 
+#values()
+d={'brand':'Xiaomi','model':'Redmi'}
+x=d.values()
+print(x)
+
+#del
+d={'brand':'Xiaomi','model':'Redmi'}
+del d['brand']
+print(d)
+
 #pop(key[,d])
 d={'Brand':'Xiaomi','model':'redmi','launced in india':'yes'}
 x=d.pop('model')
@@ -73,9 +88,3 @@ x={'launced in india':'yes'}
 print(x)
 d.update(x)
 print(d)
-
-#value()
-d={'brand':'Xiaomi','model':'Redmi'}
-x=d.values()
-print(x)
-
