@@ -18,4 +18,9 @@ print(x)
 x = []
 for iter in li:
     x.append(iter[0])
+    
+#Using list comprehension
+
+x = [item[1] for item in li] # syntax [expression for i in something]
+                            #         [expression for i in something if i>5]
 
