@@ -12,7 +12,7 @@ by the shell itself.
 In some cases executable permission won't be available for files by default so use " chmod +x filename.py " command
 to give executable permission before executing.
 
-This works only in linux platforms. Sorry windows users :(
+This works only on linux platforms. Sorry windows users :(
 
 """
 print("Life is beautiful")
